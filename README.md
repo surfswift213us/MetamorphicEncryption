@@ -17,6 +17,7 @@ Run the Script:
     Run the script using the following command:
 
         python metamorphic_encryption.py
+        python flask_server.py
         python encryption_app.py
         
 
