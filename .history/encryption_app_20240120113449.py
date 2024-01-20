@@ -30,7 +30,7 @@ class EncryptionApp:
         messagebox.showinfo("Encrypted Message", f"Encrypted Message: {encrypted_message.hex()}")
 
     def decrypt_message(self):
-        ciphertext_hex = simpledialog.askstring("Decryption", "Enter Encrypted Message (in hexadecimal):")
+        ciphertext_hex = messagebox.askstring("Decryption", "Enter Encrypted Message (in hexadecimal):")
         try:
             ciphertext = bytes.fromhex(ciphertext_hex)
             decrypted_message = self.crypto_system.decrypt(ciphertext)
