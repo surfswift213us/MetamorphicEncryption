@@ -6,6 +6,8 @@ from cryptography.hazmat.primitives.asymmetric import dh
 from cryptography.hazmat.primitives import serialization
 
 app = Flask(__name__)
+
+
 class ServerConversation:
     def __init__(self):
         self.parameters = dh.generate_parameters(generator=2, key_size=2048, backend=default_backend())
