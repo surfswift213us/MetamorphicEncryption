@@ -1,0 +1,5 @@
+.history
+.husky
+.node_modules
+.perttierignore
+_pycache_

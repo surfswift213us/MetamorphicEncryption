@@ -1,7 +1,6 @@
 import tkinter as tk
 from encryption_metamorphic import MetamorphicEncryption
 from tkinter import simpledialog
-
 from tkinter import messagebox
 
 class EncryptionApp:

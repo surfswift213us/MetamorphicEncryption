@@ -1,0 +1,9 @@
+# Ignore artifacts:
+build
+coverage
+node_modules
+ca-certificates.crt
+ca-key.pem
+README.md
+.history
+.husky
