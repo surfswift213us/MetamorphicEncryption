@@ -1,5 +1,5 @@
-.history
-.husky
-.node_modules
-.perttierignore
+
+node_modules
 _pycache_
+.perttierignore
+.history
