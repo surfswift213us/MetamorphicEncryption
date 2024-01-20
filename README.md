@@ -20,7 +20,7 @@ Run the Script:
     Navigate to the directory where you saved the Python script.
     Run the script using the following command:
 
-        python metamorphic_encryption.py
+        python class.py
 
     Observe Output:
         The script will generate an encrypted message and then attempt to decrypt it, printing the results to the console.
