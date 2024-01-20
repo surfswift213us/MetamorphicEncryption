@@ -10,10 +10,6 @@ To run this code, you'll need to have Python installed on your machine. Here are
 
     pip install cryptography apscheduler
 
-Save the Code:
-
-    Copy the provided Python code and save it in a file with a .py extension, for example, metamorphic_encryption.py.
-
 Run the Script:
 
     Open a terminal or command prompt.
