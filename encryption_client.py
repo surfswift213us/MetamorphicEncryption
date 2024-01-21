@@ -32,7 +32,7 @@ def send_message(sender, receiver, message):
     # Send the encrypted message to the server
     url = 'https://localhost:5000/send_message'
     data = {'client_public_key': client_conversation.get_public_key(), 'message': encrypted_message}
-    response = requests.post(url, json=data, verify='ca-cert.pem')
+    response = requests.post(url, json=data, verify='cert.pem')
 
     print(response.json())
 
