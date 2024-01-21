@@ -8,7 +8,7 @@ To run this code, you'll need to have Python installed on your machine. Here are
         Open a terminal or command prompt.
         Install the required libraries using the following command:
 
-    pip install cryptography apscheduler tk flask flask-talisman jsonify
+    pip install cryptography apscheduler tk flask flask-talisman jsonify urllib3 messagebox simpledialog requests
 
 Run the Script:
 
